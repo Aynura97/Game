@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+}
+table{
+    margin: auto;
+}
+table,td{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+td{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+td img {
+    width: 80%;
+    height: 80%;
+}
+p {
+    
+   font-size: 60px;
+ padding: 60px;
+  color: orangered;
+}
